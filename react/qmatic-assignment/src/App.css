@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 2px 0;
+}
+
+a {
+  padding: 2px 6px;
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#root {
+  padding: 20px;
+  max-width: 500px;
+}
+
+.pageCount {
+  text-align: right;
+}
